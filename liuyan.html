@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>留言交流</title>
+		<link rel="icon" href="./img/logo.png" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/liuyan.css" />
+		<style>
+			input{
+				border: 0;
+				background-color: #e2e3e4;
+				height: 30px;
+				border-radius: 15px;
+				outline-style: none;
+				padding-left: 10px;
+			}
+			button{
+				background-color: skyblue;
+				border:0;
+				padding:10px 30px 10px 30px;
+				border-radius: 25px;
+				font-size: 18px;
+				color: rgba(255, 255, 255, 0.8);
+			}
+			button:hover{
+				background-color: deepskyblue;
+			}
+			table{
+				color: rgba(0,0,0,0.7);
+			}
+		</style>
+	</head>
+	<body style="height: 1500px;">
+		<header>
+		<div class="top">
+			<div class="topleft" >
+				<img src="./img/logo.png" height="60px" style="line-height: 70px;" />
+			</div>
+			<div class="topmain" style="font-size: 20px;">
+				<ul>
+					<li style="font-size: 30px;color: black;">个人网页</li>
+					<li><a href="sheyin.html">网站首页</a></li>
+					<li><a href="aihao.html">生活爱好</a></li>
+					<li><a href="jiaxiang.html">我的家乡</a></li>
+					<li><a href="liuyan.html" style="color: black;">留言交流</a></li>
+				</ul>
+			</div>
+			<div class="topright" >
+				<a href="index.html" style="color: rgba(0,0,0,0.7);">登录页</a>
+			</div>
+		</div>
+		</header>
+		<main>
+			<div class="zhuyao">
+				<img src="./img/003.jpg" width="100%" alt="" />
+			</div>
+			
+				<div class="zhuyaoleft">
+					<div id="top">
+						<span>关于我</span>
+					</div>
+					<div id="botmain">
+						<img src="img/touxiang.jpg" alt="" width="150px"/><br /><br />
+					</div>
+					<span>姓名</span>&nbsp;:&nbsp;&nbsp;胡思成<br />
+					<span>性别</span>&nbsp;:&nbsp;&nbsp;男<br />
+					<span>学号</span>&nbsp;:&nbsp;&nbsp;20210106119<br />
+					<span>专业</span>&nbsp;:&nbsp;&nbsp;物联网应用技术<br />
+					<span>兴趣爱好</span>&nbsp;:&nbsp;&nbsp;摄影、吃<br />
+				</div>
+				<div class="zhuyaoright">
+					<div id="top2" >
+						留言交流
+					</div>
+					<center>
+					<table style="margin-top: 30px;">
+						<tr>
+							<td class="neiron">
+								账号：<input type="text" placeholder="请输入账号" />
+							</td>
+						</tr>
+						<tr>
+							<td >
+								<br />密码：<input type="password" placeholder="请输入密码"/>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+								<br />
+								留言内容：<br />
+								<textarea " cols="30" rows="10"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td align="center">
+								<br /><button type="reset" onclick="alert('谢谢，收到你的留言啦！')">提交</button>
+							</td>
+						</tr>
+					</table>
+					</center>
+					</div>
+					
+		</main>
+		<footer>
+			<div style="margin-top: 650px;">
+			<center>
+			<span>&copy; Hu &nbsp;&nbsp;学号：20210106119</span>
+			</center>
+			</div>
+		</footer>
+	</body>
+</html>

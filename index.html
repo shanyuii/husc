@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>关于想法太大最后无法完成于是摆烂写个人网页这件事</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="icon" href="./img/logo.png" />
+		<script src="js/login.js"></script>
+		<style>
+			.login{
+				display: none;
+				width: 300px;
+				height: 150px;
+				margin-top: 20px;
+				background-color: rgba(255, 255, 255, 0.6);
+				border-radius:15px;
+				pos
+			}
+			.login:target{
+				display: block;
+			}
+			.login input{
+				width: 200px;
+				border: 0;
+				height: 30px;
+				margin-bottom: 10px;
+				border-radius: 5px;
+				opacity: 0.9;
+				padding-left: 10px;
+				outline-style: none;
+			}
+			.login input:nth-child(1){
+				margin-top: 30px;
+			}
+			.login button{
+				width: 100px;
+				height: 30px;
+				background-color: skyblue;
+				border-radius: 5px;
+				border: 0;
+				color:rgba(255, 255, 255, 0.9);
+			}
+			.login button:hover{
+				scale: 0.9;
+				color: black;
+			}
+			.all{
+				position: absolute;
+			}
+			.out{
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translate(-50%);
+			}
+			.out span{
+				font-size: 24px;
+				
+			}.out table{
+				border-top: 1px solid #e2e3e4;
+				border-left:1px solid #e2e3e4;
+				box-shadow: 5px 5px 1px #e2e3e4;
+				margin-top: 20px;
+				background-color: white;
+				margin-bottom: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="all" style="width: 100%; height: 2200px;">
+			<div id="main" >
+				<header>
+			<div class="top" >
+				<div class="topleft" >
+					<img src="img/logo.png" height="60px" style="line-height: 70px;" />
+					 <span>MR.HU</span>
+				</div>
+				<div class="topmain">
+					个人主页
+				</div>
+				<div class="topright">
+					<a href="#two">登录</a>
+				</div>
+			</div>
+			</header>
+		<main>
+				<div class="jieshao" id="one">
+					<img src="img/touxiang.jpg" width="200px" alt="" />
+					<span class="text">欢&nbsp;迎&nbsp;来&nbsp;到&nbsp;MR.Hu&nbsp;的&nbsp;主&nbsp;页<br />
+					&nbsp;&nbsp;&nbsp;Welcome To Hu World</span>
+				</div>
+				<center>
+				<div class="login" id="two">
+					<form action="sheyin.html" onsubmit="return jianche();">
+						<input type="text" placeholder="请输入账号"/><br />
+						<input type="password" placeholder="请输入密码" /><br />
+						<button type="submit" >登录</button>
+					</form>
+					
+				</div>
+				</center>
+				</main>
+				<footer>
+					<div class="foot">
+						永远相信美好的事情即将发生
+					</div>
+				</footer>
+			</div>
+		<div class="out">
+			<br />
+			<center>
+				<span>有一些美好想跟你分享</span>
+				<br /><br /><p style="color: rgba(0, 0, 0, 0.6);">保持期待</p>
+			<table cellspacing="25px">
+				<tr>
+					<td ><img src="img/01.jpg" width="400px" height="300px"/></td>
+					<td ><img src="img/02.jpg" width="400px" height="300px"/></td>
+				
+				</tr>
+				<tr>
+					<td ><img src="img/03.png" width="400px" height="300px"/></td>
+					<td ><img src="img/04.jpg" width="400px" height="300px"/></td>
+					
+				</tr>
+				<tr>
+					<td ><img src="img/05.jpg" width="400px" height="300px"/></td>
+					<td ><img src="img/06.jpg" width="400px" height="300px"/></td>
+				
+				</tr>
+			</table>
+			<span style="font-size: 18px;">&copy; Hu</span>
+			</center>
+		</div>
+		</div>
+	</body>
+</html>
